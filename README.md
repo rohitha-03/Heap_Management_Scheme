@@ -8,4 +8,4 @@ while a particular block frees it ensures that adjacent free blocks are merged t
 ## Functionality
 
 - **allocate_block**: Allocates a block of memory of the specified size and ensure that there is no internal fragmentation by splitting the block after allocation
-- **free**: It frees previously allocated block and is added to the free list ensuring adjacent free blocks are merged
+- **free_block**: It frees previously allocated block and is added to the free list ensuring adjacent free blocks are merged
